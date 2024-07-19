@@ -28,7 +28,8 @@
 nav {
   padding-top: 8px;
   padding-bottom: 10px;
-  background-color: #2090f98d;
+  /* background-color: #0c0c0fb8; */
+  background-image: linear-gradient(to right, #0c0c0f,#0c0c0fb8 );
   width: 100%;
   position: fixed;
   top: 0;
@@ -61,6 +62,11 @@ nav>.socials {
 nav>.socials>img {
   width: 20px;
   margin-left: 15px;
+}
+
+nav>.socials>img:hover {
+  color: #2091f9;
+  cursor: pointer;
 }
 
 .nav-texts {
@@ -150,8 +156,8 @@ nav>.socials>img {
   }
 
   nav>.socials>img {
-    background-color: #2091f9;
-
+    /* background-color: #0c0c0f; */
+      background-color: #2091f9;
   }
 }
 
